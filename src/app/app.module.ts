@@ -9,12 +9,19 @@ import { QuienesSomosComponent } from './quienes-somos/quienes-somos.component';
 import { GaleriaComponent } from './galeria/galeria.component';
 import { RouterModule, Routes } from '@angular/router';
 import { FooterComponent } from './footer/footer.component';
+import { HomeComponent } from './home/home.component';
 
 const routes: Routes=[
-  {path: '', redirectTo: './QuienesSomos', pathMatch:'full'},
-  {path: 'Galeria', component:GaleriaComponent},
-  {path: 'QuienesSomos', component:QuienesSomosComponent},
-  {path: 'servicios', component:ServiciosComponent}
+  {path: '', redirectTo: './home', pathMatch:'full'},
+  {path: '', redirectTo: './quienes-somos', pathMatch:'full'},
+  {path: '', redirectTo: './servicios', pathMatch:'full'},
+  {path: '', redirectTo: './galeria', pathMatch:'full'},
+
+  {path: 'servicios', component:ServiciosComponent},
+  {path: 'quienes-somos', component:QuienesSomosComponent},
+  {path: 'galeria', component:GaleriaComponent},
+  {path: 'home', component:HomeComponent},
+
 
 ]
 @NgModule({
@@ -24,11 +31,13 @@ const routes: Routes=[
     HeaderComponent,
     QuienesSomosComponent,
     GaleriaComponent,
-    FooterComponent
+    FooterComponent,
+    HomeComponent
   ],
   imports: [
     AppRoutingModule,
-    BrowserModule
+    BrowserModule,
+    RouterModule.forRoot(routes)
   ],
   providers: [],
   bootstrap: [AppComponent]

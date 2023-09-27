@@ -1,0 +1,18 @@
+.card-text{
+    font-family: 'Arial Narrow';
+    color: #b8ea57;
+    font-size: 15px;
+}
+
+.div text-center bg-primary mb-3{
+    max-width: 40rem;
+    height: 230px;
+    background-color: #4ed865;
+    opacity: 70%;
+}
+body{
+  background-image: url("https://img.freepik.com/foto-gratis/hombre-cuidando-su-granja-close-up_23-2148580028.jpg") ;
+  background-size: cover;
+
+
+}

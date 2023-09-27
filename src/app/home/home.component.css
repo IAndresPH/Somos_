@@ -1,0 +1,45 @@
+/* Estilo para el fondo desenfocado */
+body {
+    background-image: url('https://imgs.search.brave.com/89sc4FFrfMGNY-9AhWLmUZRITbdILBxkWAZNMQUZoO0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/Zm90by1ncmF0aXMv/YWdyb25vbW8tYWdy/aWN1bHRvci10cmFi/YWphZG9yLXNlbmlv/ci1jYW1wby1zb2ph/LWNvbnRyb2wtY3Vs/dGl2b3MtYW50ZXMt/Y29zZWNoYV8zNDI3/NDQtMTI2MC5qcGc_/c2l6ZT02MjYmZXh0/PWpwZw'); /* Reemplaza 'tu-imagen-de-fondo.jpg' con la ruta de tu imagen */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    filter: blur(0px); /* Aplicar desenfoque al fondo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Estilo para el contenido en el centro */
+.content {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente blanco */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Estilo para el título */
+h1 {
+    font-size: 36px; /* Tamaño del título */
+    margin-bottom: 10px;
+    color: black;
+}
+
+/* Estilo para el recuadro de texto */
+.box {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente negro */
+    padding: 20px;
+    border-radius: 10px;
+    color: white; /* Color del texto */
+}
+
+
+#content {
+    color: white;
+    background-attachment: fixed;
+    padding: 25px;
+    margin: 0 auto;
+    max-width: 600px;
+    -webkit-box-shadow:  1px 1px 5px 3px rgba(0, 0, 0, 0.2);
+    box-shadow:  1px 1px 5px 3px rgba(0, 0, 0, 0.2);
+}

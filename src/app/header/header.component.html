@@ -1,11 +1,10 @@
-
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="header.component.css">
   </head>
   <nav>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success"> <!-- Cambia "bg-dark" a "bg-success" -->
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
            <img src="https://e7.pngegg.com/pngimages/726/984/png-clipart-logo-agriculture-tractor-farm-tractor-logo-computer-wallpaper.png" alt="Logo" width="32" height="32" >
@@ -15,18 +14,20 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a aria-current="page" href="home">Home</a>
+
+            <li class="nav-item" routerLinkActive="active">
+              <a class="#" routerLink="/home" >Home</a>
             </li>
 
-            <li class="nav-item">
-              <a  href='Servicios' >Servicios</a>
+            <li class="nav-item" routerLinkActive="active">
+              <a class="#" routerLink="/servicios" >Servicios</a>
             </li>
-            <li class="nav-item">
-              <a  href='QuienesSomos' >Quienes somos</a>
+            <li class="nav-item" routerLinkActive="active">
+              <a  class="#" routerLink="/quienes-somos">Quienes somos</a>
             </li>
-            <li class="nav-item">
-              <a  href='Galeria' >Galeria de imagenes</a>
+
+            <li class="nav-item" routerLinkActive="active">
+              <a   href='#' routerLink="/galeria">Galeria de imagenes</a>
             </li>
 
             <li class="nav-item">
