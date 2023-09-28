@@ -1,7 +1,7 @@
 /* Estilo para el fondo desenfocado */
 body {
-    background-image: url('https://imgs.search.brave.com/89sc4FFrfMGNY-9AhWLmUZRITbdILBxkWAZNMQUZoO0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/Zm90by1ncmF0aXMv/YWdyb25vbW8tYWdy/aWN1bHRvci10cmFi/YWphZG9yLXNlbmlv/ci1jYW1wby1zb2ph/LWNvbnRyb2wtY3Vs/dGl2b3MtYW50ZXMt/Y29zZWNoYV8zNDI3/NDQtMTI2MC5qcGc_/c2l6ZT02MjYmZXh0/PWpwZw'); /* Reemplaza 'tu-imagen-de-fondo.jpg' con la ruta de tu imagen */
-    background-size: cover;
+    background-image: url('https://www.vanguardia.com/binrepository/716x477/0c0/0d0/none/12204/OWCO/colp-ext-079410-1_8649160_20230818182343.jpg '); /* Reemplaza 'tu-imagen-de-fondo.jpg' con la ruta de tu imagen */
+    background-size: 80%;
     background-position: center;
     height: 100vh;
     filter: blur(0px); /* Aplicar desenfoque al fondo */

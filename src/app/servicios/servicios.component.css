@@ -3,3 +3,9 @@
     text-transform: uppercase;
     font-size: 1.2rem;
     color: #116530; }
+    body {
+      background-color: rgba(240, 240, 240, 0.7);
+      background-size: cover; /* Para ajustar la imagen de fondo al tamaño de la ventana del navegador */
+      background-repeat: no-repeat; /* Para evitar la repetición de la imagen */
+      /* Otras propiedades de estilo que desees aplicar al cuerpo */
+    }
