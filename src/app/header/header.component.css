@@ -2,13 +2,13 @@
   font-family: 'Bonello-Regular', sans-serif;
 }
 nav a{
-  color: #333;
+  color: whitesmoke;
   text-decoration:none;
   padding: 6px 20px ;
   transition: .5s;
 }
 nav a:hover{
-  color: #00ffff;
+  color: limegreen;
 }
 nav a span{
   position: absolute;
